@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfjjx0xj2oekp"]
+
+[ext_resource type="Script" path="res://characters/enemies/PlayerDetectionZone.cs" id="1_88w3d"]
+
+[node name="PlayerDetectionZone" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_88w3d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]

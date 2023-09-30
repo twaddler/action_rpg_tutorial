@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgpv56dbcdk48"]
+
+[ext_resource type="Script" path="res://hitboxes_hurtboxes/Hurtbox.cs" id="1_i0a0k"]
+
+[node name="Hurtbox" type="Area2D"]
+script = ExtResource("1_i0a0k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="InvincibilityTimer" type="Timer" parent="."]
+one_shot = true
